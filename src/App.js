@@ -9,6 +9,7 @@ import Regis from "./screen/auth/register/regis";
 import Respo from "./screen/auth/changepw/changepw";
 import Search from "./screen/components/library/search";
 import Radio from "./screen/components/library/radio";
+import Listen from "./screen/components/library/listeningNow";
 
 function App() {
   return (
@@ -22,10 +23,10 @@ function App() {
           <Route path="/resetpassword" element={<Respo />} />
           <Route path="/search" element={<Search />} />
           <Route path="/radio" element={<Radio />} />
+          <Route path="/listeningNow" element={<Listen />} />
         </Routes>
       </Router>
     </div>
-    
   );
 }
 
